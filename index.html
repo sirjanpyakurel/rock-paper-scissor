@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/66657f5a51.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <h1>Rock Paper Scissor</h1>
+    <div class="container">
+        
+        <div class="left">
+            <div class="userturn turn">User</div>
+            <div class="Urock all"><i class="fa-solid fa-hand-back-fist"></i></div>
+            <div class="Upaper all"><i class="fa-regular fa-hand"></i></div>
+            <div class="Uscissor all"><i class="fa-regular fa-hand-scissors"></i></div>
+        </div>
+        
+        <div class="leftresult result all "></div>
+        <div class="rightresult result all "></div>
+        <div class="Right">
+            <div class="compturn turn">Computer</div>
+
+            <div class="rock all"><i class="fa-solid fa-hand-back-fist"></i></div>
+            <div class="paper all"><i class="fa-regular fa-hand"></i></div>
+            <div class="scissor all"><i class="fa-regular fa-hand-scissors"></i></div>
+        </div>
+    </div>
+
+    <div class="winner win hide">
+        <p>You win the game.</p>
+    </div>
+
+    <div class="loser win hide">
+        <p>You lose the game.</p>
+    </div>
+    <div class="tie win hide">
+        <p>It's a tie.</p>
+    </div>
+<div class="resetbtn">
+   <button class="reset hide">Reset</button>
+</div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
